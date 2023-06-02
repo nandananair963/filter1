@@ -1,0 +1,12 @@
+.btn{
+    background-color: white;
+}
+
+.btn:hover{
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    background-color: blueviolet;
+}

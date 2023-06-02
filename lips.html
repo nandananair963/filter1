@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Filter Web App</title>
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/1042/1042339.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        <style>
+
+        body{
+            background-color: white;
+        }
+
+        h3{
+         font-size: 30px;
+         background-color:crimson;
+         color: white;
+         width: 250px;
+         border-radius: 10px;
+        }
+        
+        canvas{
+         animation-name: example;
+         animation-duration: 5s;
+         animation-iteration-count: infinite;
+        }
+
+       @keyframes example{
+        from{box-shadow: 1px 1px 38px #ff0050;}
+        to{ box-shadow: 1px 1px 38px #f57da2;}
+       }
+        </style>
+    </head>
+    <body background="lips.jpeg">
+        <button class="pull-left btn btn-primary" onclick="home();">HOME</button>
+        <br>
+        <center>
+        <h3 class="">Filter Web App</h3>
+        <br><br>
+        <button class="btn btn-success" onclick="take_snapshot();">Take Snapshot</button>
+        </center>
+        <script src="lips.js"></script>
+    </body>
+</html>
